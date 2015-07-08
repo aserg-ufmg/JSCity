@@ -1,0 +1,1 @@
+{"mensagem":"","registros":[{"id":20840,"name":"successNotification","height":5,"width":2,"color":"0x337AB7","tooltip":"Function: successNotification, LOC: 5 [87-91]","distrito_id":null,"construcao_id":19809},{"id":20841,"name":"doneWaiting","height":3,"width":1,"color":"0x337AB7","tooltip":"Function: doneWaiting, LOC: 3 [91-93]","distrito_id":null,"construcao_id":19809}]}

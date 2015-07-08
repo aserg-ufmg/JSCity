@@ -1,0 +1,1 @@
+{"mensagem":"","registros":[{"id":18835,"name":"parseStack","height":28,"width":5,"color":"0x337AB7","tooltip":"Function: parseStack, LOC: 28 [208-235]","distrito_id":null,"construcao_id":18228},{"id":18836,"name":"renderErrorInt","height":29,"width":3,"color":"0x337AB7","tooltip":"Function: renderErrorInt, LOC: 29 [238-266]","distrito_id":null,"construcao_id":18228}]}

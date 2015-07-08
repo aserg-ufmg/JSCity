@@ -1,0 +1,1 @@
+{"mensagem":"","registros":[{"id":14636,"name":"handleResponse","height":6,"width":2,"color":"0x337AB7","tooltip":"Function: handleResponse, LOC: 6 [1151-1156]","distrito_id":null,"construcao_id":14221},{"id":14637,"name":"handleTimeout","height":9,"width":3,"color":"0x337AB7","tooltip":"Function: handleTimeout, LOC: 9 [1158-1166]","distrito_id":null,"construcao_id":14221}]}
