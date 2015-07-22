@@ -250,7 +250,7 @@ Interface = new Class({
 					'z-index':1000
 				}
 			}).grab(new Element('div', {
-				'text': 'Wait...',
+				'text': 'Wait ... After loading use mouse scroll to zoom in/out',
 				'styles': {
 					'background-color': '#FFF',
 					'border': '1px solid #DDD',
