@@ -152,7 +152,7 @@
     				Waiting.end();
     			} else if(stats.isDirectory()) {
     				if(consoleArguments.verbose) {
-    					console.log('Processing directory: ' + currentPath);
+    					console.log('Processing Directory: ' + currentPath);
     				}
     				fs.readdir(currentPath, function (error, arqs) {
     					if(error) {
@@ -371,7 +371,7 @@
     			} else {
     				dist = {
     					name: name,
-    					color: colors['directory'],
+    					color: colors['Directory'],
     					tooltip: 'Folder: ' + ast.path,
     					tb_district: [],
     					tb_building: []
