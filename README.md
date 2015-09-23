@@ -61,7 +61,7 @@ This command reads all js file on the directory and its subdirectories and inser
 ```sh
 node gerador.js ./backend/system/name-of-your-project/src/ -c "City Name"
 ```
-In some cases the analysed project have atthe end of the file, unfinished functions that close in antoher file. This may be the reason of problems at the parser, causing troubles in generating data cities. In that case, you should unify the archives or use the comand bellow to ignore parser errors.
+In some cases the analysed project have at the end of the file, unfinished functions that close in another file. This may be the reason of problems at the parser, causing troubles in generating data cities. In that case, you should unify the archives or use the comand bellow to ignore parser errors.
 ```sh
 node gerador.js ./backend/system/name-of-your-project/src/ -c "City Name"
 ```
