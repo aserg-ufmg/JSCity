@@ -12,7 +12,7 @@
    - The schema.sql creates a database called jscity
    - The schema.sql comes with a sample of data city
 
-* Setup the config.json, located inside of js diretory, if necessary. This file is already set up with the sample below and if you prefer you can use it.
+* Setup the config.json, located inside of js directory, if necessary. This file is already set up with the sample below and if you prefer you can use it.
 ```
 "host": "localhost",
 "user": "root"
