@@ -2,10 +2,12 @@
    JSCity is an implementation of the Code City metaphor for visualizing source code. We adapted and implemented this metaphor for JavaScript, using the three.js 3D library.
    JSCity represents a JavaScript program as a city; folders are districts and files are sub-districts; the buildings are functions; inner functions are represented as buildings on the top of their nested function/building.
    The Number Of Lines of Source (LOC) represents the height of the buildings/functions; the Number Of Variables (NOV) in a function correlates to the building's base size. Blue buildings denote named functions; green buildings are anonymous functions.
-   
+
    For examples of cities check: [Wiki](https://github.com/ASERG-UFMG/JSCity/wiki/JSCITY).
-   
+
 ### Steps to see your first 3D Javascript City.
+You can set up from source directly, or see Vagrant setup below.
+
 * Install nodejs. You can download it from [https://nodejs.org/en/](https://nodejs.org/en/).
 * Install MySQL Server (https://dev.mysql.com/downloads/mysql/).  If you already have the mysql on your computer jump to step * Start the MySQL server.
 * Run the script **schema.sql** located inside of sql diretory.
@@ -33,6 +35,21 @@ http://localhost:800/
 ```
 * Select the system from the combobox and wait for the end of city design.
 
+### Vagrant setup
+
+Alternatively, you can install [Vagrant](https://www.vagrantup.com).  There is
+a Vagrantfile and shell provision script, which will start up an Ubuntu 14.04
+virtual machine instance, install MySQL and Node in it and configure them
+properly. You can then run:
+```sh
+vagrant up
+```
+* Use your browser access the url below to open the jscity system:
+```
+http://localhost:8080/
+```
+Note that this is a different URL than the source default above.
+
 ### How to generate a city
 
 * Certifiy that you have [nodejs](https://nodejs.org/en/) and [MySQL server](https://dev.mysql.com/downloads/mysql/) installed on your computer.
@@ -44,7 +61,7 @@ path-to-jscity-directory/js/backend/system/
 * Open nodeJs console and go to the js directory from JSCity
 ```sh
 cd /path-to-jscity-directory/js
-``` 
+```
 * Start the application server using the command:
 ```sh
 node serve.js
