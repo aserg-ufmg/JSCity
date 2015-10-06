@@ -1,5 +1,5 @@
 	{
-		"porta": 800,
+		"porta": 8888,
 		"debug": false,
 		"conexao": "local",
 		"cache-local": false,

@@ -29,7 +29,7 @@ node serve.js
 ```
 * Use your browser access the url below to open the jscity system:
 ```
-http://localhost:800/
+http://localhost:8888/
 ```
 * Select the system from the combobox and wait for the end of city design.
 
@@ -68,7 +68,7 @@ node gerador.js ./backend/system/name-of-your-project/src/ -c "City Name"
 * Wait for the end of the process.
 * Use your browser access the url below to open the jscity system:
 ```
-http://localhost:800/
+http://localhost:8888/
 ```
 * Select the system from the combobox and wait for the end of city design.
 
