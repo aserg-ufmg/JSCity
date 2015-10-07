@@ -25,7 +25,7 @@ cd /path-to-jscity-directory/js
 ```
 * Start the application server using the command.
 ```sh
-node serve.js
+node server.js
 ```
 * Use your browser access the url below to open the jscity system:
 ```
