@@ -3,6 +3,7 @@
     	mime = require('mime'),
     	mysql = require('mysql'),
     	nomnom = require('nomnom'),
+		minimatch = require('minimatch'),
     	esprima = require('../lib/esprima.js'),
     	config = require('../config.json'),
     	debug = !!config.debug,
@@ -28,7 +29,12 @@
     			abbr: 'v',
     			help: 'Print message and errors.',
     			flag: true
-    		}
+    		},
+			'exclude': {
+				abbr: 'x',
+				help: 'List of file patterns to exclude (comma separated)',
+				default: ''
+			}
     	});
 
     	consoleArguments = nomnom.parse();
@@ -37,6 +43,9 @@
     	if(!consoleArguments.city || consoleArguments.city=='') {
     		consoleArguments.city = path.basename(consoleArguments.project);
     	}
+
+		var excludes = consoleArguments.exclude.split(',');
+
     	//console.log(consoleArguments);
     	//process.exit();
     	fs.exists(consoleArguments.project, function(exists) {
@@ -148,7 +157,7 @@
     		Waiting.up();
     		fs.stat(currentPath, function defineType(error, stats) {
     			if(error) {
-    				console.log('Invalid paht: ' + currentPath);
+    				console.log('Invalid path: ' + currentPath);
     				Waiting.end();
     			} else if(stats.isDirectory()) {
     				if(consoleArguments.verbose) {
@@ -168,7 +177,14 @@
     				});
     			} else {
     				var type = mime.lookup(currentPath), validos = ['text/javascript', 'application/javascript'];
-    				if(validos.indexOf(type)<0) {
+					var excluded = false;
+					excludes.forEach(function(exclude){
+						if (minimatch(currentPath, exclude)) {
+							excluded = true;
+						}
+					});
+
+    				if(excluded || validos.indexOf(type)<0) {
     					currentPath = path.relative(consoleArguments.project, currentPath);
     					if(consoleArguments.verbose) {
     						console.log('Ignoring file: ' + currentPath);
