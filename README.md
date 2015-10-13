@@ -15,7 +15,7 @@
 * Setup the config.json, located inside of js directory, if necessary. This file is already set up with the sample below and if you prefer you can use it.
 ```
 "host": "localhost",
-"user": "root"
+"user": "jscity"
 "password": "",
 "database": "jscity"
 ```
