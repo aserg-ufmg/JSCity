@@ -19,26 +19,38 @@
 "password": "",
 "database": "jscity"
 ```
-* Open nodeJs console and go to the js diretory from JSCity.
+* Open nodeJs console and go to the js directory from JSCity.
 ```sh
 cd /path-to-jscity-directory/js
 ```
 * Start the application server using the command.
 ```sh
-node serve.js
+node server.js
 ```
-* Use your browser access the url below to open the jscity system:
+* Using your browser, access the url below to open the jscity system:
 ```
-http://localhost:800/
+http://localhost:8888/
 ```
 * Select the system from the combobox and wait for the end of city design.
 
 ### How to generate a city
 
 * Certifiy that you have [nodejs](https://nodejs.org/en/) and [MySQL server](https://dev.mysql.com/downloads/mysql/) installed on your computer.
-* Unpack your desired project and take a note of the path to access it. For this sample let`s imagine that my desired project is placed  inside the follow path:
+* Unpack your desired project and take a note of the path to access it. For this sample let`s imagine that my desired project is placed  inside the following path:
 ```
 path-to-jscity-directory/js/backend/system/
+```
+* Make sure the generator.js file is placed inside your project directory. e.g: 
+```sh
+path-to-jscity-directory/js/backend/system/name-of-your-project/
+```
+* Check the lib folder and config.json file are in your project's parent directory. e.g.:
+```sh
+path-to-jscity-directory/js/backend/system/
+```
+* There should also be a copy of config.json in the js directory:
+```sh
+path-to-jscity-directory/js
 ```
 * Make sure that your MySQL server is started.  If it isn`t, start the MySQL server.
 * Open nodeJs console and go to the js directory from JSCity
@@ -47,34 +59,34 @@ cd /path-to-jscity-directory/js
 ``` 
 * Start the application server using the command:
 ```sh
-node serve.js
+node server.js
 ```
-* Open **another nodejs console** and go to the directory that you place your desired project.
+* Open **another nodejs console** and go to the directory that you placed your desired project.
 ```sh
 cd /path-to-jscity-directory/js/backend/system/name-of-your-project/
 ```
-* Run the **generator.js** follow by the path of your project , a parameter -c and a name to your city. The  line below shows an example of how the command is supposed to be.
+* Run the **generator.js** followed by the path of your project , a parameter -c and a name to your city. The  line below shows an example of how the command is supposed to be.
 ```sh
 node generator.js path-to-project-diretory -c "Name Your Project"
 ```
-This command reads all js file on the directory and its subdirectories and inserts  all the information   needed in the database to design the city. Remember to specify your project source code correct path, because some github cloned projects come with sample codes , minify libraries and other codes that don`t represent the real core of the system.
+This command reads all js file in the directory and its subdirectories and inserts  all the information   needed in the database to design the city. Remember to specify your project source code correct path, because some github cloned projects come with sample codes , minify libraries and other codes that don`t represent the real core of the system.
 ```sh
-node gerador.js ./backend/system/name-of-your-project/src/ -c "City Name"
+node generator.js ./backend/system/name-of-your-project/src/ -c "City Name"
 ```
 In some cases the analysed project have at the end of the file, unfinished functions that close in another file. This may be the reason of problems at the parser, causing troubles in generating data cities. In that case, you should unify the archives or use the comand bellow to ignore parser errors.
 ```sh
-node gerador.js ./backend/system/name-of-your-project/src/ -c "City Name"
+node generator.js ./backend/system/name-of-your-project/src/ -c "City Name"
 ```
 * Wait for the end of the process.
 * Use your browser access the url below to open the jscity system:
 ```
-http://localhost:800/
+http://localhost:8888/
 ```
 * Select the system from the combobox and wait for the end of city design.
 
 ### City Controls
 
-We`ve implemented two types of visualization controls. The defaul control is an Orbital but you can easly change to a first person control by accessing the controls menu.
+We`ve implemented two types of visualization controls. The default control is an Orbital but you can easily change to a first person control by accessing the controls menu.
 
 ##### How to use the controls
 
