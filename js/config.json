@@ -13,7 +13,7 @@
 				"connectionLimit": 200,
 				"waitForConnections": true,
 				"host": "localhost",
-				"user": "root",
+				"user": "jscity",
 				"password": "",
 				"database": "jscity"
 			},
@@ -21,7 +21,7 @@
 				"connectionLimit": 10000,
 				"waitForConnections": true,
 				"host": "localhost",
-				"user": "root",
+				"user": "jscity",
 				"password": "",
 				"database": "jscity"
 			},
@@ -29,7 +29,7 @@
 				"connectionLimit": 4,
 				"waitForConnections": true,
 				"host": "localhost",
-				"user": "root",
+				"user": "jscity",
 				"password": "",
 				"database": "jscity"
 			}
