@@ -1,1 +1,0 @@
-{"mensagem":"","registros":[{"id":24408,"name":"makeApi","height":131,"width":24,"color":"0x337AB7","tooltip":"Function: makeApi, LOC: 131 [2998-3128]","distrito_id":null,"construcao_id":24066},{"id":24409,"name":"loadDependencies","height":6,"width":2,"color":"0x337AB7","tooltip":"Function: loadDependencies, LOC: 6 [3133-3138]","distrito_id":null,"construcao_id":24066}]}

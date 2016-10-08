@@ -1,1 +1,0 @@
-{"mensagem":"","registros":[{"id":35177,"name":"getNodeName","height":4,"width":2,"color":"0x337AB7","tooltip":"Function: getNodeName, LOC: 4 [38-41]","distrito_id":4240,"construcao_id":null},{"id":35178,"name":"createNodesFromMarkup","height":32,"width":7,"color":"0x337AB7","tooltip":"Function: createNodesFromMarkup, LOC: 32 [53-84]","distrito_id":4240,"construcao_id":null}]}

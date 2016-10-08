@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":61180,"name":"position","height":5,"width":5,"color":"0x2A75B3","tooltip":"position, LOC: 5 [5325-5329]","district_id":null,"building_id":60503},{"id":61181,"name":"neighbor","height":14,"width":2,"color":"0x2A75B3","tooltip":"neighbor, LOC: 14 [5330-5343]","district_id":null,"building_id":60503}]}

@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":20754,"name":"clientPasswordStrategy","height":12,"width":3,"color":"0x2A75B3","tooltip":"clientPasswordStrategy, LOC: 12 [15-26]","district_id":2014,"building_id":null},{"id":20755,"name":"bearerStrategy","height":23,"width":6,"color":"0x2A75B3","tooltip":"bearerStrategy, LOC: 23 [36-58]","district_id":2014,"building_id":null}]}

@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":38550,"name":"readToken","height":11,"width":3,"color":"0x2A75B3","tooltip":"readToken, LOC: 11 [867-877]","district_id":null,"building_id":37622},{"id":38551,"name":"skipUntil","height":17,"width":5,"color":"0x2A75B3","tooltip":"skipUntil, LOC: 17 [878-894]","district_id":null,"building_id":37622}]}

@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":50212,"name":"onComplete","height":9,"width":4,"color":"0x2A75B3","tooltip":"onComplete, LOC: 9 [2732-2740]","district_id":null,"building_id":48732},{"id":50213,"name":"onError","height":3,"width":1,"color":"0x2A75B3","tooltip":"onError, LOC: 3 [2741-2743]","district_id":null,"building_id":48732}]}

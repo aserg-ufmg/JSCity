@@ -1,1 +1,0 @@
-{"mensagem":"","registros":[{"id":10532,"name":"urlResolve","height":26,"width":2,"color":"0x337AB7","tooltip":"Function: urlResolve, LOC: 26 [65-90]","distrito_id":842,"construcao_id":null},{"id":10533,"name":"urlIsSameOrigin","height":5,"width":2,"color":"0x337AB7","tooltip":"Function: urlIsSameOrigin, LOC: 5 [99-103]","distrito_id":842,"construcao_id":null}]}

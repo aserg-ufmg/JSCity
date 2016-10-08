@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":39676,"name":"ReactLink","height":4,"width":1,"color":"0x2A75B3","tooltip":"ReactLink, LOC: 4 [46-49]","district_id":3772,"building_id":null},{"id":39677,"name":"createLinkTypeChecker","height":9,"width":2,"color":"0x2A75B3","tooltip":"createLinkTypeChecker, LOC: 9 [59-67]","district_id":3772,"building_id":null}]}

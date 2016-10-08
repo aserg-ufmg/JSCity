@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":21252,"name":"activate","height":3,"width":1,"color":"0x2A75B3","tooltip":"activate, LOC: 3 [8-10]","district_id":2142,"building_id":null},{"id":21253,"name":"setupRoutes","height":3,"width":1,"color":"0x2A75B3","tooltip":"setupRoutes, LOC: 3 [12-14]","district_id":2142,"building_id":null}]}

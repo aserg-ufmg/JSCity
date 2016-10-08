@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":13555,"name":"getStringifier","height":10,"width":2,"color":"0x2A75B3","tooltip":"getStringifier, LOC: 10 [178-187]","district_id":null,"building_id":12269},{"id":13556,"name":"interpolate","height":7,"width":3,"color":"0x2A75B3","tooltip":"interpolate, LOC: 7 [189-195]","district_id":null,"building_id":12269}]}

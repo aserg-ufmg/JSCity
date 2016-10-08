@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":17345,"name":"Anonymous function","height":1,"width":1,"color":"0x31A948","tooltip":"Anonymous function, LOC: 1 [2755-2755]","district_id":null,"building_id":17203},{"id":17346,"name":"callOnDestroyHook","height":3,"width":1,"color":"0x2A75B3","tooltip":"callOnDestroyHook, LOC: 3 [2759-2761]","district_id":null,"building_id":17203}]}

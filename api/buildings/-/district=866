@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":11945,"name":"Browser","height":330,"width":40,"color":"0x2A75B3","tooltip":"Browser, LOC: 330 [25-354]","district_id":866,"building_id":null},{"id":11946,"name":"$BrowserProvider","height":6,"width":2,"color":"0x2A75B3","tooltip":"$BrowserProvider, LOC: 6 [357-362]","district_id":866,"building_id":null}]}

@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":22179,"name":"rssConfigMiddleware","height":4,"width":1,"color":"0x2A75B3","tooltip":"rssConfigMiddleware, LOC: 4 [38-41]","district_id":null,"building_id":21271},{"id":22180,"name":"redirectToRSS","height":3,"width":1,"color":"0x2A75B3","tooltip":"redirectToRSS, LOC: 3 [50-52]","district_id":null,"building_id":21271}]}

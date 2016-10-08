@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":37671,"name":"getInt","height":8,"width":2,"color":"0x2A75B3","tooltip":"getInt, LOC: 8 [1069-1076]","district_id":null,"building_id":36638},{"id":37672,"name":"getHints","height":14,"width":5,"color":"0x2A75B3","tooltip":"getHints, LOC: 14 [1077-1090]","district_id":null,"building_id":36638}]}

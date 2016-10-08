@@ -1,1 +1,0 @@
-{"mensagem":"","registros":[{"id":33544,"name":"readToken","height":11,"width":3,"color":"0x337AB7","tooltip":"Function: readToken, LOC: 11 [1002-1012]","distrito_id":null,"construcao_id":32725},{"id":33545,"name":"skipUntil","height":17,"width":5,"color":"0x337AB7","tooltip":"Function: skipUntil, LOC: 17 [1013-1029]","distrito_id":null,"construcao_id":32725}]}

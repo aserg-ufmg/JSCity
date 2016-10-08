@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":12136,"name":"urlResolve","height":26,"width":2,"color":"0x2A75B3","tooltip":"urlResolve, LOC: 26 [58-83]","district_id":894,"building_id":null},{"id":12137,"name":"urlIsSameOrigin","height":5,"width":2,"color":"0x2A75B3","tooltip":"urlIsSameOrigin, LOC: 5 [92-96]","district_id":894,"building_id":null}]}

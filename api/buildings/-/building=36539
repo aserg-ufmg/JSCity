@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":37035,"name":"CFFFDSelect","height":4,"width":1,"color":"0x2A75B3","tooltip":"CFFFDSelect, LOC: 4 [1178-1181]","district_id":null,"building_id":36539},{"id":37036,"name":"CFFFDSelect_get","height":6,"width":1,"color":"0x2A75B3","tooltip":"CFFFDSelect_get, LOC: 6 [1183-1188]","district_id":null,"building_id":36539}]}
