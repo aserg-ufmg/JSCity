@@ -1,0 +1,67 @@
+	<!DOCTYPE html>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta charset="utf-8" />
+	<title>JS CITY - A Tool for 3D visualization for javascript systems</title>
+	<link type="text/css" rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/css.css" />
+	<script type="text/javascript" src="js/lib/mootools-yui-compressed.js"></script>
+	<script type="text/javascript" src="js/lib/three.min.js"></script>
+	<script type="text/javascript" src="js/lib/raf-polyfill.js"></script>
+	<script type="text/javascript" src="js/lib/controles.js"></script>
+	<script type="text/javascript" src="js/lib/OrbitControls.js"></script>
+	<script type="text/javascript" src="js/city.js"></script>
+	<script type="text/javascript" src="js/interface.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+	<div id="vis" class="grafico"></div>
+	<div id="interface">
+		<h1><i class="fa fa-cubes"></i> JSCITY</h1>
+		<div class="nav">
+			<ul class="menu">
+
+				<li><span>Control Type <i class="fa fa-caret-down fa-fw"></i></span>
+					<ul>
+						<li><span id="btOrbital"><i class="fa fa-globe fa-fw"></i> Orbital</span></li>
+						<li><span id="btFPerson"><i class="fa fa-male fa-fw"></i> First Person</span></li>
+					</ul>
+				</li>
+				<li><span>Select the System <i class="fa fa-caret-down fa-fw"></i></span>
+					<ul id="cities">
+						<li><span><i class="fa fa-eye-slash fa-fw"></i> None available. Wait or reload to retry.</span></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="painel">
+			<strong id="nameCity"></strong>
+			<span><strong>Mouse:</strong> X=<span id="mouseX">?</span>, Y=<span id="mouseY">?</span></span>
+			<span style="display:none"><strong>Ray:</strong> X=<span id="rayX">?</span>, Y=<span id="rayY">?</span>, Z=<span id="rayZ">?</span></span>
+			<span><strong>Speed:</strong> <span id="speed">...</span></span>
+			<div class="pop with-overlay">
+				<span class="botao"><i class="fa fa-question-circle fa-lg fa-fw"></i> Help</span>
+				<div class="content">
+					<h2 class="titulo">Help</h2>
+					<div class="texto">
+						<span>How to use </span><br/><br/>
+						<p>Use <strong>scroll up</strong> to zoom in</p>
+						<p>Use <strong>scroll down</strong> to zoom out</p>
+						<p>Use <strong>mouse left button</strong> to move around the screen </p>
+						<p>Use <strong>mouse right button</strong> to move sidewards</p>
+
+						<br/><br/><span>City Metaphor </span><br/><br/>
+						<span><i class="fa fa-circle fa-fw i-city"></i> Program [City]</span><br/>
+						<span><i class="fa fa-circle fa-fw i-diretorio"></i> Folder [District]</span><br/>
+						<span><i class="fa fa-circle fa-fw i-arquivo"></i> File [Sub-District]</span><br/>
+						<span><i class="fa fa-circle fa-fw i-nomeada"></i> Named Function [Building]</span><br/>
+						<span><i class="fa fa-circle fa-fw i-anonima"></i> Anonymous Function [Building]</span><br/><br/>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="tooltip" style="background:#FFF;border:1px solid #EEE;padding:.2em .4em;position:absolute"><div><span id="blockName">...</span></div></div>
+	</body>
+	</html>
