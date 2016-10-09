@@ -1,1 +1,0 @@
-{"message":"","registers":[{"id":34131,"name":"hasFakeRuleset","height":4,"width":2,"color":"0x2A75B3","tooltip":"hasFakeRuleset, LOC: 4 [152-155]","district_id":null,"building_id":33873},{"id":34132,"name":"getBodyRules","height":8,"width":2,"color":"0x2A75B3","tooltip":"getBodyRules, LOC: 8 [156-163]","district_id":null,"building_id":33873}]}

@@ -1,1 +1,0 @@
-{"message":"","registers":[{"id":40088,"name":"runJest","height":33,"width":5,"color":"0x2A75B3","tooltip":"runJest, LOC: 33 [32-64]","district_id":3998,"building_id":null},{"id":40089,"name":"compareResults","height":11,"width":4,"color":"0x2A75B3","tooltip":"compareResults, LOC: 11 [66-76]","district_id":3998,"building_id":null}]}

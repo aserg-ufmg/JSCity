@@ -1,0 +1,1 @@
+{"mensagem":"","registros":[{"id":4183,"name":"repeatCommand","height":7,"width":1,"color":"0x337AB7","tooltip":"Function: repeatCommand, LOC: 7 [5756-5762]","distrito_id":null,"construcao_id":2816},{"id":4184,"name":"repeatInsert","height":9,"width":2,"color":"0x337AB7","tooltip":"Function: repeatInsert, LOC: 9 [5763-5771]","distrito_id":null,"construcao_id":2816}]}

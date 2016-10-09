@@ -1,0 +1,1 @@
+{"mensagem":"","registros":[{"id":4161,"name":"onPromptClose","height":7,"width":1,"color":"0x337AB7","tooltip":"Function: onPromptClose, LOC: 7 [2095-2101]","distrito_id":null,"construcao_id":2638},{"id":4162,"name":"onPromptKeyDown","height":24,"width":3,"color":"0x337AB7","tooltip":"Function: onPromptKeyDown, LOC: 24 [2102-2125]","distrito_id":null,"construcao_id":2638}]}

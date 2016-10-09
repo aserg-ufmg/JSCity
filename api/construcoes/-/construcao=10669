@@ -1,0 +1,1 @@
+{"mensagem":"","registros":[{"id":11935,"name":"serialize","height":32,"width":4,"color":"0x337AB7","tooltip":"Function: serialize, LOC: 32 [830-861]","distrito_id":null,"construcao_id":10669},{"id":11936,"name":"serializeScope","height":16,"width":4,"color":"0x337AB7","tooltip":"Function: serializeScope, LOC: 16 [863-878]","distrito_id":null,"construcao_id":10669}]}

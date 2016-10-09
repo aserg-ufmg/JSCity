@@ -1,1 +1,0 @@
-{"message":"","registers":[{"id":28954,"name":"getDetectObjByAmdPath","height":5,"width":2,"color":"0x2A75B3","tooltip":"getDetectObjByAmdPath, LOC: 5 [4-8]","district_id":null,"building_id":28666},{"id":28955,"name":"generateBuildQuery","height":42,"width":11,"color":"0x2A75B3","tooltip":"generateBuildQuery, LOC: 42 [10-51]","district_id":null,"building_id":28666}]}

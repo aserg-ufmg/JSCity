@@ -1,1 +1,0 @@
-{"message":"","registers":[{"id":36279,"name":"addWinding","height":81,"width":12,"color":"0x2A75B3","tooltip":"addWinding, LOC: 81 [382-462]","district_id":null,"building_id":36104},{"id":36280,"name":"handleCurve","height":27,"width":13,"color":"0x2A75B3","tooltip":"handleCurve, LOC: 27 [464-490]","district_id":null,"building_id":36104}]}

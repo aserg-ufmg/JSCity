@@ -1,1 +1,0 @@
-{"message":"","registers":[{"id":5872,"name":"three.js","color":"0xCA202B","tooltip":"three.js, LOC: 3 [1-3]","city_id":null,"district_id":5831},{"id":5873,"name":"bar","color":"0xF7AB29","tooltip":"Folder: tests\\functional\\_base\\loader\\requirejs\\relative\\foo\\bar","city_id":null,"district_id":5831}]}

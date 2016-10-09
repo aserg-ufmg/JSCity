@@ -1,1 +1,0 @@
-{"message":"","registers":[{"id":20493,"name":"initDbHashAndFirstRun","height":20,"width":5,"color":"0x2A75B3","tooltip":"initDbHashAndFirstRun, LOC: 20 [37-56]","district_id":1899,"building_id":null},{"id":20494,"name":"init","height":77,"width":15,"color":"0x2A75B3","tooltip":"init, LOC: 77 [61-137]","district_id":1899,"building_id":null}]}

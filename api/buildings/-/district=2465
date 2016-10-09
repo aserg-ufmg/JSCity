@@ -1,1 +1,0 @@
-{"message":"","registers":[{"id":23979,"name":"rerunDateMigration","height":25,"width":5,"color":"0x2A75B3","tooltip":"rerunDateMigration, LOC: 25 [9-33]","district_id":2465,"building_id":null},{"id":23980,"name":"fixSqliteFormat","height":24,"width":2,"color":"0x2A75B3","tooltip":"fixSqliteFormat, LOC: 24 [39-62]","district_id":2465,"building_id":null}]}

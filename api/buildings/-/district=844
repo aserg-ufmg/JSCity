@@ -1,1 +1,0 @@
-{"message":"","registers":[{"id":11879,"name":"serializeObject","height":14,"width":3,"color":"0x2A75B3","tooltip":"serializeObject, LOC: 14 [5-18]","district_id":844,"building_id":null},{"id":11880,"name":"toDebugString","height":10,"width":1,"color":"0x2A75B3","tooltip":"toDebugString, LOC: 10 [20-29]","district_id":844,"building_id":null}]}
