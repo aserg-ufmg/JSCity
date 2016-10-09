@@ -1,4 +1,4 @@
-Controles = new Class({
+Controls = new Class({
 	Implements: [Events],
 	initialize: function (keyconf, elRef) {
 		var self = this, cmd = {},
@@ -37,7 +37,7 @@ Controles = new Class({
 				}
 			}
 		});
-		self.ativo = function (nome) {
+		self.active = function (nome) {
 			return !!cmd[nome];
 		};
 		self.mouse = function (nref) {

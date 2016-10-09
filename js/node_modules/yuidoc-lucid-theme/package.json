@@ -1,0 +1,50 @@
+{
+  "name": "yuidoc-lucid-theme",
+  "version": "0.1.1",
+  "description": "A simple YUIDoc theme for single-module libraries.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naturalatlas/yuidoc-lucid-theme.git"
+  },
+  "keywords": [
+    "yuidoc"
+  ],
+  "author": {
+    "name": "Brian Reavis"
+  },
+  "contributors": [
+    {
+      "name": "Brian Reavis",
+      "email": "brian@thirdroute.com"
+    },
+    {
+      "name": "Anthony Barone",
+      "email": "tonybaroneee@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/naturalatlas/yuidoc-lucid-theme/issues"
+  },
+  "homepage": "https://github.com/naturalatlas/yuidoc-lucid-theme",
+  "license": "MIT",
+  "_id": "yuidoc-lucid-theme@0.1.1",
+  "dist": {
+    "shasum": "d35847bfc06c909bda1aab8c3f6062fc36cfe1c8",
+    "tarball": "http://registry.npmjs.org/yuidoc-lucid-theme/-/yuidoc-lucid-theme-0.1.1.tgz"
+  },
+  "_from": "yuidoc-lucid-theme@*",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "brianreavis",
+    "email": "brian@thirdroute.com"
+  },
+  "maintainers": [
+    {
+      "name": "brianreavis",
+      "email": "brian@thirdroute.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "d35847bfc06c909bda1aab8c3f6062fc36cfe1c8",
+  "_resolved": "https://registry.npmjs.org/yuidoc-lucid-theme/-/yuidoc-lucid-theme-0.1.1.tgz"
+}
