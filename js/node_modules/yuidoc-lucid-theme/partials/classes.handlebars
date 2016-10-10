@@ -1,0 +1,185 @@
+<div class="page-header">
+    <h1>{{name}}</h1>
+</div>
+
+    {{#if uses}}
+	<div class="well well-small">
+        <div class="uses">
+            Uses
+            <ul class="inline commas">
+                {{#uses}}
+                    <li><a href="{{.}}.html">{{.}}</a></li>
+                {{/uses}}
+            </ul>
+        </div>
+    </div>
+    {{/if}}
+
+    {{#if extends}}
+	<div class="well well-small">
+        <div class="extends">
+            Extends {{#crossLink extends}}{{/crossLink}}
+        </div>
+    </div>
+    {{/if}}
+
+    {{#if module}}
+	<div class="well well-small">
+        {{#if submodule}}
+            Module: {{#crossLinkModule submodule}}{{/crossLinkModule}}<br>
+            Parent Module: {{#crossLinkModule module}}{{/crossLinkModule}}
+        {{else}}
+            Module: {{#crossLinkModule module}}{{/crossLinkModule}}
+        {{/if}}
+    </div>
+    {{/if}}
+
+    {{#if since}}
+        <p>Available since {{since}}</p>
+    {{/if}}
+
+{{#if deprecated}}
+    <div class="well well-small">
+        <p>
+        {{#if deprecationMessage}}
+            <strong>Deprecated:</strong> {{deprecationMessage}}
+        {{else}}
+            This class is deprecated.
+        {{/if}}
+        </p>
+    </div>
+{{/if}}
+
+{{#if classDescription}}
+<div class="yuidoc-class-description">
+{{{classDescription}}}
+</div>
+{{/if}}
+
+<!-- table of contents -->
+
+<div id="class-toc" class="page-section">
+	<h2>Table of Contents</h2>
+    <ul>
+		{{#hasInstanceMethods methods}}
+		<li>
+			<strong>Methods</strong>
+			<ul>
+				{{#methods}}
+				{{#if static}}
+				{{else}}
+				<li><a href="#method-{{name}}"><span class="im">{{name}}</span>({{#params}}<span class="ia">{{name}}</span>{{/params}})</a></li>
+				{{/if}}
+				{{/methods}}
+			</ul>
+		</li>
+		{{/hasInstanceMethods}}
+
+		{{#if properties}}
+		<li>
+			<strong>Properties</strong>
+			<ul>
+				{{#properties}}
+				<li><a href="#prop-{{name}}"><span class="ip">{{name}}</span></a></li>
+				{{/properties}}
+			</ul>
+		</li>
+		{{/if}}
+
+		{{#if attrs}}
+		<li>
+			<strong>Attributes</strong>
+			<ul>
+				{{#attrs}}
+				<li><a href="#attr-{{name}}"><span class="iattr">{{name}}</span></a></li>
+				{{/attrs}}
+			</ul>
+		</li>
+		{{/if}}
+
+		{{#hasStaticMethods methods}}
+		<li>
+			<strong>Static Methods</strong>
+			<ul>
+				{{#methods}}
+				{{#if static}}
+				<li><a href="#method-{{name}}"><span class="im">{{class}}.{{name}}</span>({{#params}}<span class="ia">{{name}}</span>{{/params}})</a></li>
+				{{/if}}
+				{{/methods}}
+			</ul>
+		</li>
+		{{/hasStaticMethods}}
+	</ul>
+</div>
+
+<!-- details -->
+
+{{#is_constructor}}
+    <div class="constructor yuidoc-class-constructor page-section">
+        <h2>Constructor</h2>
+        <div class="item-list">
+        {{>method}}
+        </div>
+    </div>
+{{/is_constructor}}
+
+{{#hasInstanceMethods methods}}
+    <div id="methods" class="page-section">
+        <h2 class="off-left">Methods</h2>
+        <div class="item-list">
+       		{{#methods}}
+        	{{#if static}}
+            {{else}}
+            {{>method}}
+            {{/if}}
+        {{/methods}}
+        </div>
+    </div>
+{{/hasInstanceMethods}}
+
+{{#if properties}}
+    <div id="properties" class="page-section">
+        <h2 class="off-left">Properties</h2>
+
+        <div class="item-list">
+        {{#properties}}
+            {{>props}}
+        {{/properties}}
+        </div>
+    </div>
+{{/if}}
+
+{{#if attrs}}
+    <div id="attrs" class="page-section">
+        <h2 class="off-left">Attributes</h2>
+
+        {{#attrs}}
+            {{>attrs}}
+        {{/attrs}}
+    </div>
+{{/if}}
+
+{{#if events}}
+    <div id="events" class="page-section">
+        <h2 class="off-left">Events</h2>
+
+        <div class="item-list">
+        {{#events}}
+            {{>events}}
+        {{/events}}
+        </div>
+    </div>
+{{/if}}
+
+{{#hasStaticMethods methods}}
+    <div id="static-methods" class="page-section">
+        <h2 class="off-left">Static Methods</h2>
+        <div class="item-list">
+        {{#methods}}
+			{{#if static}}
+    	        {{>method}}
+            {{/if}}
+        {{/methods}}
+        </div>
+    </div>
+{{/hasStaticMethods}}

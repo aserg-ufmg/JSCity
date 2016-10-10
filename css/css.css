@@ -40,7 +40,7 @@ body {
 	line-height:20px;
 	padding: 15px;
 }
-#cidades {
+#cities {
 	max-height: 500px;
 	overflow: auto;
 }
@@ -60,7 +60,7 @@ ul.menu li:hover {
 	background-color: #F5F5F5;
 	color: #262626;
 }
-ul.menu .ativo {
+ul.menu .active {
 	background-color: #D0D0F5;
 	color: #010126;
 }
@@ -109,21 +109,21 @@ ul.menu li:hover>ul {
 #interface .painel>#stats {
 	padding: 0;
 }
-.pop .conteudo {
+.pop .content {
 	display: none;
 	background-color: #FFF;
 	border: 1px solid rgba(0, 0, 0, 0.15);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
 }
-.pop .conteudo>.titulo {
+.pop .content>.titulo {
 	background-color: #E7E7E7;
 	color: #555;
 	padding: 5px 20px;
 }
-.pop .conteudo>.texto {
+.pop .content>.texto {
 	padding: 15px 20px 20px;
 }
-.cidades {
+.cities {
 	position: absolute;
 }
 #vis {

@@ -1,0 +1,13 @@
+{"message":"","registers":[
+{"id":1,"name":"Example City","tooltip":"Example City @./system/metafora/"},
+{"id":2,"name":"ace","tooltip":"ace @ C:\\JSCity\\js\\backend\\system\\ace\\lib\\ace"},
+{"id":3,"name":"algorithms.js","tooltip":"algorithms.js @ @/algorithms.js/src/"},
+{"id":4,"name":"cappuccino","tooltip":"cappuccino @/cappuccino/CommonJSlib"},
+{"id":5,"name":"cappuccino","tooltip":"cappuccino @ C:\\JSCity\\js\\backend\\system\\cappuccino\\CommonJS\\lib\\cappuccino"},
+{"id":6,"name":"js-git","tooltip":"js-git @ C:\\JSCity\\js\\backend\\system\\js-git\\lib"},
+{"id":7,"name":"js-git","tooltip":"js-git @ @/js-git/lib"},
+{"id":8,"name":"tween","tooltip":"tween @ @/TweenJS/src"},
+{"id":9,"name":"move","tooltip":"move @ @/move.js"},
+{"id":10,"name":"bower","tooltip":"bower @ @/bower/lib"},
+{"id":11,"name":"bootstrap","tooltip":"bootstrap @ C:\\JSCity\\js\\backend\\system\\bootstrap\\js\\src"},
+{"id":12,"name":"bootstrap","tooltip":"bootstrap @/bootstrap/js"}]}

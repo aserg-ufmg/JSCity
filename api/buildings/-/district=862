@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":11877,"name":"encode","height":37,"width":13,"color":"0x2A75B3","tooltip":"encode, LOC: 37 [10-46]","district_id":862,"building_id":null},{"id":11878,"name":"decode","height":19,"width":5,"color":"0x2A75B3","tooltip":"decode, LOC: 19 [49-67]","district_id":862,"building_id":null}]}
