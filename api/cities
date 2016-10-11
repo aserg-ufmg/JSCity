@@ -58,6 +58,6 @@
 {"id":58,"name":"tween","tooltip":"tween @ /TweenJS/src"},
 {"id":59,"name":"underscore","tooltip":"underscore @ /underscore"},
 {"id":60,"name":"velocity","tooltip":"velocity @ /velocity"},
-{"id":61,"name":"zepto","tooltip":"zepto @ /src"},
+{"id":61,"name":"zepto","tooltip":"zepto @ /zeptp/src"},
 {"id":62,"name":"angularJs","tooltip":"angularJs @ /angular.js/src"},
 {"id":63,"name":"paper","tooltip":"paper @ /paper.js/src"}]}
