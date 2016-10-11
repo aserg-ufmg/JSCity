@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":61645,"name":"$controller","height":79,"width":8,"color":"0x2A75B3","tooltip":"$controller, LOC: 79 [97-175]","district_id":null,"building_id":60242},{"id":61646,"name":"addIdentifier","height":9,"width":1,"color":"0x2A75B3","tooltip":"addIdentifier, LOC: 9 [177-185]","district_id":null,"building_id":60242}]}

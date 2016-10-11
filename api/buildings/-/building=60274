@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":61677,"name":"resolveFn","height":3,"width":1,"color":"0x2A75B3","tooltip":"resolveFn, LOC: 3 [652-654]","district_id":null,"building_id":60274},{"id":61678,"name":"rejectFn","height":3,"width":1,"color":"0x2A75B3","tooltip":"rejectFn, LOC: 3 [656-658]","district_id":null,"building_id":60274}]}

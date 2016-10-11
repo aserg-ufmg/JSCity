@@ -1,1 +1,1 @@
-{"message":"","register":{"id":14712,"name":"callHook","height":4,"width":1,"color":"0x2A75B3","tooltip":"callHook, LOC: 4 [928-931]","district_id":null,"building_id":14546}}
+{"message":"","registers":[{"id":15161,"name":"Anonymous function","height":4,"width":1,"color":"0x31A948","tooltip":"Anonymous function, LOC: 4 [579-582]","district_id":null,"building_id":14546},{"id":15162,"name":"Anonymous function","height":4,"width":1,"color":"0x31A948","tooltip":"Anonymous function, LOC: 4 [584-587]","district_id":null,"building_id":14546}]}

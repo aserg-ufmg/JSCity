@@ -1,1 +1,1 @@
-{"message":"","registers":[{"id":12426,"name":"createInstance","height":10,"width":2,"color":"0x2A75B3","tooltip":"createInstance, LOC: 10 [11-20]","district_id":924,"building_id":null},{"id":12427,"name":"getConstructor","height":205,"width":34,"color":"0x2A75B3","tooltip":"getConstructor, LOC: 205 [22-226]","district_id":924,"building_id":null},{"id":12428,"name":"clearRuntimeCache","height":5,"width":2,"color":"0x2A75B3","tooltip":"clearRuntimeCache, LOC: 5 [228-232]","district_id":924,"building_id":null}]}
+{"message":"","registers":[]}

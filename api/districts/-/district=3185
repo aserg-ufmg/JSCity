@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":3272,"name":"canvas","color":"0xF7AB29","tooltip":"Folder: pixi\\renderers\\canvas","city_id":null,"district_id":3185},{"id":3273,"name":"webgl","color":"0xF7AB29","tooltip":"Folder: pixi\\renderers\\webgl","city_id":null,"district_id":3185}]}

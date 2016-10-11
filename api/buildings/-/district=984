@@ -1,1 +1,1 @@
-{"message":"","registers":[]}
+{"message":"","registers":[{"id":15853,"name":"download","height":53,"width":9,"color":"0x2A75B3","tooltip":"download, LOC: 53 [18-70]","district_id":984,"building_id":null},{"id":15854,"name":"fetch","height":70,"width":17,"color":"0x2A75B3","tooltip":"fetch, LOC: 70 [72-141]","district_id":984,"building_id":null}]}

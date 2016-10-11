@@ -1,1 +1,1 @@
-{"message":"","registers":[]}
+{"message":"","registers":[{"id":936,"name":"qunit.js","color":"0xCA202B","tooltip":"qunit.js, LOC: 4147 [12-4158]","city_id":null,"district_id":924},{"id":937,"name":"jquery.min.js","color":"0xCA202B","tooltip":"jquery.min.js, LOC: 3 [2-4]","city_id":null,"district_id":924},{"id":938,"name":"tether.min.js","color":"0xCA202B","tooltip":"tether.min.js, LOC: 1 [1-1]","city_id":null,"district_id":924}]}

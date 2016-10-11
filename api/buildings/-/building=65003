@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":65462,"name":"addCurve","height":5,"width":2,"color":"0x2A75B3","tooltip":"addCurve, LOC: 5 [56-60]","district_id":null,"building_id":65003},{"id":65463,"name":"computeParts","height":29,"width":6,"color":"0x2A75B3","tooltip":"computeParts, LOC: 29 [62-90]","district_id":null,"building_id":65003}]}

@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":64006,"name":"ngModelPreLink","height":24,"width":6,"color":"0x2A75B3","tooltip":"ngModelPreLink, LOC: 24 [1111-1134]","district_id":null,"building_id":61839},{"id":64007,"name":"ngModelPostLink","height":22,"width":5,"color":"0x2A75B3","tooltip":"ngModelPostLink, LOC: 22 [1135-1156]","district_id":null,"building_id":61839}]}

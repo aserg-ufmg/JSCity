@@ -1,1 +1,1 @@
-{"message":"","register":{"id":14458,"name":"Anonymous function","height":1,"width":1,"color":"0x31A948","tooltip":"Anonymous function, LOC: 1 [3-3]","district_id":null,"building_id":13846}}
+{"message":"","registers":[{"id":14035,"name":"Anonymous function","height":24,"width":4,"color":"0x31A948","tooltip":"Anonymous function, LOC: 24 [4294-4317]","district_id":null,"building_id":13846},{"id":14036,"name":"Anonymous function","height":29,"width":2,"color":"0x31A948","tooltip":"Anonymous function, LOC: 29 [4320-4348]","district_id":null,"building_id":13846}]}

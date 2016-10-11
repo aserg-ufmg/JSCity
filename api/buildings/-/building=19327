@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":19368,"name":"cleanupExpected","height":21,"width":3,"color":"0x2A75B3","tooltip":"cleanupExpected, LOC: 21 [336-356]","district_id":null,"building_id":19327},{"id":19369,"name":"buildMessage","height":35,"width":11,"color":"0x2A75B3","tooltip":"buildMessage, LOC: 35 [358-392]","district_id":null,"building_id":19327}]}

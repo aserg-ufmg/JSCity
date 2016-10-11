@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":46703,"name":"typeCheckFail","height":13,"width":3,"color":"0x2A75B3","tooltip":"typeCheckFail, LOC: 13 [23-35]","district_id":3692,"building_id":null},{"id":46704,"name":"typeCheckPass","height":12,"width":3,"color":"0x2A75B3","tooltip":"typeCheckPass, LOC: 12 [37-48]","district_id":3692,"building_id":null}]}

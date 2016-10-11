@@ -1,1 +1,1 @@
-{"message":"","registers":[]}
+{"message":"","registers":[{"id":13588,"name":"iterator","height":7,"width":2,"color":"0x2A75B3","tooltip":"iterator, LOC: 7 [181-187]","district_id":null,"building_id":13037},{"id":13589,"name":"Anonymous function","height":12,"width":4,"color":"0x31A948","tooltip":"Anonymous function, LOC: 12 [189-200]","district_id":null,"building_id":13037}]}

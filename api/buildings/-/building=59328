@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":60662,"name":"countChildScopes","height":17,"width":4,"color":"0x2A75B3","tooltip":"countChildScopes, LOC: 17 [2706-2722]","district_id":null,"building_id":59328},{"id":60663,"name":"countWatchers","height":17,"width":4,"color":"0x2A75B3","tooltip":"countWatchers, LOC: 17 [2738-2754]","district_id":null,"building_id":59328}]}

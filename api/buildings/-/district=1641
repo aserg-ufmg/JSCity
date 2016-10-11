@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":23375,"name":"mockNotExistingModule","height":9,"width":2,"color":"0x2A75B3","tooltip":"mockNotExistingModule, LOC: 9 [8-16]","district_id":1641,"building_id":null},{"id":23376,"name":"unmockNotExistingModule","height":3,"width":1,"color":"0x2A75B3","tooltip":"unmockNotExistingModule, LOC: 3 [18-20]","district_id":1641,"building_id":null}]}

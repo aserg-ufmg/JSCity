@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":59214,"name":"Module: ngCookies","height":3,"width":1,"color":"0x000000","tooltip":"Module: ngCookies, LOC: 1 [19-19]","district_id":4606,"building_id":null},{"id":59215,"name":"$CookiesProvider","height":150,"width":11,"color":"0x2A75B3","tooltip":"$CookiesProvider, LOC: 150 [26-175]","district_id":4606,"building_id":null}]}

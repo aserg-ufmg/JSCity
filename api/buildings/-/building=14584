@@ -1,1 +1,1 @@
-{"message":"","registers":[]}
+{"message":"","registers":[{"id":15189,"name":"createModule","height":23,"width":5,"color":"0x2A75B3","tooltip":"createModule, LOC: 23 [494-516]","district_id":null,"building_id":14584},{"id":15190,"name":"setCurrentModule","height":3,"width":1,"color":"0x2A75B3","tooltip":"setCurrentModule, LOC: 3 [518-520]","district_id":null,"building_id":14584}]}

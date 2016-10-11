@@ -1,0 +1,1 @@
+{"message":"","registers":[{"id":58198,"name":"Promise$_resolver","height":6,"width":1,"color":"0x2A75B3","tooltip":"Promise$_resolver, LOC: 6 [2475-2480]","district_id":null,"building_id":57883},{"id":58199,"name":"Promise$_rejecter","height":6,"width":2,"color":"0x2A75B3","tooltip":"Promise$_rejecter, LOC: 6 [2481-2486]","district_id":null,"building_id":57883}]}

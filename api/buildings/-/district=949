@@ -1,1 +1,1 @@
-{"message":"","register":{"id":12539,"name":"validLink","height":18,"width":4,"color":"0x2A75B3","tooltip":"validLink, LOC: 18 [4-21]","district_id":949,"building_id":null}}
+{"message":"","registers":[{"id":15679,"name":"help","height":22,"width":4,"color":"0x2A75B3","tooltip":"help, LOC: 22 [6-27]","district_id":949,"building_id":null},{"id":15680,"name":"Anonymous function","height":7,"width":4,"color":"0x31A948","tooltip":"Anonymous function, LOC: 7 [31-37]","district_id":949,"building_id":null}]}
