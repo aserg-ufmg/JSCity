@@ -38,6 +38,7 @@
 {"id":38,"name":"mootools","tooltip":"mootools @ /mootools-core/Source/Core"},
 {"id":39,"name":"move","tooltip":"move @ /move.js"},
 {"id":40,"name":"mustache","tooltip":"mustache @ /mustache.js"},
+
 {"id":41,"name":"parallax","tooltip":"parallax @ /parallax/source"},
 {"id":42,"name":"pdf","tooltip":"pdf @ /pdf.js/src"},
 {"id":43,"name":"phase","tooltip":"phase /phaser/src"},
@@ -60,6 +61,8 @@
 {"id":60,"name":"velocity","tooltip":"velocity @ /velocity"},
 {"id":61,"name":"zepto","tooltip":"zepto @ /zeptp/src"},
 {"id":62,"name":"angularJs","tooltip":"angularJs @ /angular.js/src"},
-{"id":63,"name":"paper","tooltip":"paper @ /paper.js/src"}]}
-{"id":70,"name":"textillate","tooltip":"textillate @ /textillate"}]}
-{"id":71,"name":"mocha","tooltip":"mocha @ /mocha/lib"}]}
+{"id":63,"name":"paper","tooltip":"paper @ /paper.js/src"},
+{"id":70,"name":"textillate","tooltip":"textillate @ /textillate"},
+{"id":71,"name":"mocha","tooltip":"mocha @ /mocha/lib"},
+{"id":72,"name":"knockout","tooltip":"knockout @ /knockout/src"},
+{"id":73,"name":"rot","tooltip":"rot @ /rot.js/src"}]}
