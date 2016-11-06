@@ -65,4 +65,5 @@
 {"id":70,"name":"textillate","tooltip":"textillate @ /textillate"},
 {"id":71,"name":"mocha","tooltip":"mocha @ /mocha/lib"},
 {"id":72,"name":"knockout","tooltip":"knockout @ /knockout/src"},
-{"id":73,"name":"rot","tooltip":"rot @ /rot.js/src"}]}
+{"id":73,"name":"rot","tooltip":"rot @ /rot.js/src"},
+{"id":74,"name":"ember","tooltip":"ember @ /emberjs"}]}
