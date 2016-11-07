@@ -7,7 +7,7 @@
    
 ### Steps to see your first 3D Javascript City.
 * Install nodejs. You can download it from [https://nodejs.org/en/](https://nodejs.org/en/).
-* Install MySQL Server (https://dev.mysql.com/downloads/mysql/).  If you already have the mysql on your computer jump to step * Start the MySQL server.
+* Install MySQL Server (https://dev.mysql.com/downloads/mysql/). If you already have the mysql on your computer jump to step * Start the MySQL server.
 * Run the script **schema.sql** located inside of sql diretory.
    - The schema.sql creates a database called jscity
    - The schema.sql comes with a sample of data city
@@ -36,7 +36,7 @@ http://localhost:8888/
 ### How to generate a city
 
 * Certify that you have [nodejs](https://nodejs.org/en/) and [MySQL server](https://dev.mysql.com/downloads/mysql/) installed on your computer.
-* Unpack your desired project and take a note of the path to access it. For this sample let`s imagine that my desired project is placed  inside the following path:
+* Unpack your desired project and take a note of the path to access it. For this sample let's imagine that my desired project is placed  inside the following path:
 ```
 path-to-jscity-directory/js/backend/system/
 ```
@@ -52,7 +52,7 @@ path-to-jscity-directory/js/backend/system/
 ```sh
 path-to-jscity-directory/js
 ```
-* Make sure that your MySQL server is started.  If it isn`t, start the MySQL server.
+* Make sure that your MySQL server is started.  If it isn't, start the MySQL server.
 * Open nodeJs console and go to the js directory from JSCity
 ```sh
 cd /path-to-jscity-directory/js
@@ -65,11 +65,11 @@ node server.js
 ```sh
 cd /path-to-jscity-directory/js/backend/system/name-of-your-project/
 ```
-* Run the **generator.js** followed by the path of your project , a parameter -c and a name to your city. The  line below shows an example of how the command is supposed to be.
+* Run the **generator.js** followed by the path of your project, a parameter -c and a name to your city. The line below shows an example of how the command is supposed to be.
 ```sh
 node generator.js path-to-project-diretory -c "Name Your Project"
 ```
-This command reads all js files in the directory and its subdirectories and inserts  all the information   needed in the database to design the city. Remember to specify your project source code correct path, because some github cloned projects come with sample codes , minify libraries and other codes that don`t represent the real core of the system.
+This command reads all js files in the directory and its subdirectories and inserts all the information needed in the database to design the city. Remember to specify your project source code correct path, because some github cloned projects come with sample codes, minify libraries and other codes that don't represent the real core of the system.
 ```sh
 node generator.js ./backend/system/name-of-your-project/src/ -c "City Name"
 ```
@@ -86,7 +86,7 @@ http://localhost:8888/
 
 ### City Controls
 
-We`ve implemented two types of visualization controls. The default control is an Orbital but you can easily change to a first person control by accessing the controls menu.
+We've implemented two types of visualization controls. The default control is an Orbital but you can easily change to a first person control by accessing the controls menu.
 
 ##### How to use the controls
 
@@ -101,7 +101,7 @@ We`ve implemented two types of visualization controls. The default control is an
 - Use W A S D or arrow keys to move
 - Press space to reset city display
 - Use + or - on the numeric keypad to change movement speed.
-- You can see at the topbar a value of the speed movement.  The higher the number of the speed movement the faster you zoom in or zoom out.
+- You can see at the topbar a value of the speed movement. The higher the number of the speed movement the faster you zoom in or zoom out.
 - Press * key to return to standard speed
 
 
