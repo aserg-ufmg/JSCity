@@ -2,9 +2,15 @@
    JSCity is an implementation of the Code City metaphor for visualizing source code. We adapted and implemented this metaphor for JavaScript, using the three.js 3D library.
    JSCity represents a JavaScript program as a city; folders are districts and files are sub-districts; the buildings are functions; inner functions are represented as buildings on the top of their nested function/building.
    The Number Of Lines of Source (LOC) represents the height of the buildings/functions; the Number Of Variables (NOV) in a function correlates to the building's base size. Blue buildings denote named functions; green buildings are anonymous functions.
-   
-   For examples of cities check: [Wiki](https://github.com/ASERG-UFMG/JSCity/wiki/JSCITY).
-   
+
+### Examples ###
+
+For examples of cities check: [Wiki](https://github.com/ASERG-UFMG/JSCity/wiki/JSCITY).
+
+### About ###
+
+JSCity is an outcome of research conducted in the [Applied Software Engineering Research Group](http://aserg.labsoft.dcc.ufmg.br/), at Federal University of Minas Gerais, Brazil
+
 ### Steps to see your first 3D Javascript City.
 * Install nodejs. You can download it from [https://nodejs.org/en/](https://nodejs.org/en/).
 * Install MySQL Server (https://dev.mysql.com/downloads/mysql/). If you already have the mysql on your computer jump to step * Start the MySQL server.
