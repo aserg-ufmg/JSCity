@@ -151,5 +151,9 @@ ul.menu li:hover>ul {
 }
 .i-cidade,
 .fa-circle.a {
-	color:#DDDDDD;
+	color:#BFBFBF;
+}
+.i-module,
+.fa-module.a {
+	color:#000000;
 }
