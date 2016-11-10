@@ -49,8 +49,9 @@ a Vagrantfile and shell provision script, which will start up an Ubuntu 14.04
 virtual machine instance, install MySQL and Node in it and configure them
 properly. You can then run:
 
-File [vagrantfile](https://github.com/aserg-ufmg/JSCity/blob/master/Vagrantfile)
-Instructions [provision_script.sh](https://github.com/aserg-ufmg/JSCity/blob/master/provision_script.sh)
+* File [vagrantfile](https://github.com/aserg-ufmg/JSCity/blob/master/Vagrantfile)
+
+* Instructions [provision_script.sh](https://github.com/aserg-ufmg/JSCity/blob/master/provision_script.sh)
 
 ```sh
 vagrant up
