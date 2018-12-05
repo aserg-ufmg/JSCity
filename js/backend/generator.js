@@ -190,7 +190,7 @@ function processPath(currentPath) {
 				}
 				Waiting.end();
 			} else {
-				fs.readFile(currentPath, function(error, content) {
+				fs.readFile(currentPath, 'utf8', function(error, content) {
 					var err, tmp;
 					currentPath = path.relative(consoleArguments.project, currentPath);
 					if(error) {
