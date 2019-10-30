@@ -248,6 +248,7 @@
 								sSQL = mysql.format(sSQL, format);
 								connection.query(sSQL, function(err, rows, fields) {
 									if(err) {
+										console.log(err)
 										responseObj.message = msg('Internal Error. {FCBD}', err.message);
 										writeEnd(JSON.stringify(responseObj), "application/json", 500);
 									} else {

@@ -1,0 +1,21 @@
+version: '3.6'
+services:
+  jscity:
+    image: node:13.0.1-stretch-slim
+    ports:
+      - '8888:8888'
+      - '9234:9234' # node debug port
+    volumes:
+      - '.:/app'
+    depends_on:
+      - database
+    working_dir: /app
+    command: 'npm start'
+  database:
+    image: mysql:8.0.18
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    volumes:
+      - './sql:/sql'
