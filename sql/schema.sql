@@ -1,9 +1,3 @@
-/*
-SQLyog 
-MySQL - 5.6.26 : Database - jscity
-*********************************************************************
-*/
-
 /*!40101 SET NAMES utf8 */;
 
 /*!40101 SET SQL_MODE=''*/;
@@ -12,7 +6,10 @@ MySQL - 5.6.26 : Database - jscity
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`jscity` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE IF NOT EXISTS `jscity`;
+
+CREATE USER IF NOT EXISTS jscity IDENTIFIED WITH mysql_native_password BY 'password';
+GRANT ALL PRIVILEGES ON jscity.* TO jscity;
 
 USE `jscity`;
 

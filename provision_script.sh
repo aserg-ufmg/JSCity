@@ -1,4 +1,5 @@
-# provision_script.sh
+##!/bin/bash
+
 apt-get update
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password your_password'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password your_password'

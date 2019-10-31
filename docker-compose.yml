@@ -9,6 +9,7 @@ services:
       - '.:/app'
     depends_on:
       - database
+      - database-migration
     working_dir: /app
     command: 'npm start'
   database:
@@ -17,5 +18,12 @@ services:
       - '3306:3306'
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+  database-migration:
+    image: mysql:8.0.18
+    depends_on:
+      - database
     volumes:
       - './sql:/sql'
+    environment:
+      CREATE_TEST_CITY: 1
+    command: 'bash -c "sleep 15 && mysql --host=database < ./sql/schema.sql"' #sleep to give the db time to come up
