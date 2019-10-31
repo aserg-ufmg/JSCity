@@ -41,6 +41,21 @@ http://localhost:8888/
 ```
 * Select the system from the combobox and wait for the end of city design.
 
+### Docker setup
+
+If you would like it as a docker
+
+```
+docker-compose up jscity
+```
+
+then give it 15 seconds or so and `http://localhost:8888`
+
+There are several docker-compose services
+
+* `database` - just a stock mysql database so you don't have to install anything
+* `database-migration` - run database migration script to create and seed the jscity database
+* `jscity` - the web server itself
 
 ### Vagrant setup
 
