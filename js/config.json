@@ -1,6 +1,6 @@
 	{
 		"porta": 8888,
-		"debug": true,
+		"debug": false,
 		"conexao": "local",
 		"cache-local": false,
 		"expires": {

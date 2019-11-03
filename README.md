@@ -56,6 +56,38 @@ There are several docker-compose services
 * `database` - just a stock mysql database so you don't have to install anything
 * `database-migration` - run database migration script to create and seed the jscity database
 * `jscity` - the web server itself
+* `generator` - used to run the city generator. Typically you would run this with the `run` and not the `up` command.
+
+#### Generate City
+
+Note that this isn't as easy as running `run-generate.sh` - this script is meant to be run *inside the docker container* not outside of it.
+
+The code to be scanned needs to be somewhere accessible to the generator docker container. You may mount additional volumes or simply place it in the cannonical location `js/backend/system/`.
+
+If you were to simply `docker-compose run` the application it will start with a new instance of the `database` service so that your changes will be created and immediately discarded. To bypass that limitation first start the database and run any migrations (if this is not your first time you can just up `database`)
+
+```
+docker-compose up -d database-migration
+```
+and then run without creating additional dependencies.
+
+Note that int he following examples we're just creating further versions of the jscity sample city
+
+```
+docker-compose run --rm --no-deps generator ./js/backend/system/metafora/ -c "Metafora Sample"
+```
+
+You may also append `--verbose` for more verbose output on the generation process.
+
+##### Debugging
+
+To debug `generator.js` you can pass in a `--debug` flag and don't forget to map port 9229
+
+```
+docker-compose run --rm -p 9229:9229 --no-deps generator ./js/backend/system/metafora/ -c "Metafora" --verbose --debug
+```
+
+This will start the script with the debugger and break on the very first line. You can navigate to `chrome://inspect/#devices` in Chrome to attach the debugger there.
 
 ### Vagrant setup
 

@@ -27,3 +27,14 @@ services:
     environment:
       CREATE_TEST_CITY: 1
     command: 'bash -c "sleep 15 && mysql --host=database < ./sql/schema.sql"' #sleep to give the db time to come up
+  generator:
+    image: node:13.0.1-stretch-slim
+    ports:
+      - '9229:9229' # node debug port
+    volumes:
+      - '.:/app'
+    depends_on:
+      - database
+      - database-migration
+    working_dir: /app
+    entrypoint: './run-generator.sh'
