@@ -12,9 +12,9 @@
 			"local": {
 				"connectionLimit": 200,
 				"waitForConnections": true,
-				"host": "localhost",
+				"host": "database",
 				"user": "jscity",
-				"password": "",
+				"password": "password",
 				"database": "jscity"
 			},
 			"amazon": {

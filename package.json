@@ -11,6 +11,6 @@
 		"node": ">= 0.12"
 	},
 	"scripts": {
-		"start": "node ./js/server.js"
+		"start": "node --inspect=0.0.0.0:9234 ./js/server.js"
 	}
 }

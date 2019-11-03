@@ -1,0 +1,40 @@
+version: '3.6'
+services:
+  jscity:
+    image: node:13.0.1-stretch-slim
+    ports:
+      - '8888:8888'
+      - '9234:9234' # node debug port
+    volumes:
+      - '.:/app'
+    depends_on:
+      - database
+      - database-migration
+    working_dir: /app
+    command: 'npm start'
+  database:
+    image: mysql:8.0.18
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+  database-migration:
+    image: mysql:8.0.18
+    depends_on:
+      - database
+    volumes:
+      - './sql:/sql'
+    environment:
+      CREATE_TEST_CITY: 1
+    command: 'bash -c "sleep 15 && mysql --host=database < ./sql/schema.sql"' #sleep to give the db time to come up
+  generator:
+    image: node:13.0.1-stretch-slim
+    ports:
+      - '9229:9229' # node debug port
+    volumes:
+      - '.:/app'
+    depends_on:
+      - database
+      - database-migration
+    working_dir: /app
+    entrypoint: './run-generator.sh'
